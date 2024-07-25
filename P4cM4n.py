@@ -236,7 +236,7 @@ while running:
             victory = True
 
     # Draw everything
-    screen.fill(BLUE)
+    screen.fill('pink')
     all_sprites.draw(screen)
 
     # Draw score and lives
