@@ -5,8 +5,8 @@ import random
 pygame.init()
 
 # Constants
-SCREEN_WIDTH = 800
-SCREEN_HEIGHT = 600
+SCREEN_WIDTH = 900
+SCREEN_HEIGHT = 700
 GRID_SIZE = 40
 PACMAN_SPEED = 5
 GHOST_SPEED = 4
@@ -14,8 +14,8 @@ WHITE = (255, 255, 255)
 BLUE = (0, 0, 255)
 YELLOW = (255, 255, 0)
 RED = (255, 0, 0)
-PACMAN_RADIUS = 15
-GHOST_RADIUS = 15
+PACMAN_RADIUS = 50
+GHOST_RADIUS = 50
 DOT_RADIUS = 5
 DOT_COLOR = (255, 255, 255)
 SCORE_FONT_SIZE = 36
@@ -30,7 +30,7 @@ ghost_image = pygame.image.load('ghost.png')
 
 # Initialize game window
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Pacman Game")
+pygame.display.set_caption("Escape the Rat")
 
 clock = pygame.time.Clock()
 
